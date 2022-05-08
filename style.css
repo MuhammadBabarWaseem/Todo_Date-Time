@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.bb{
+    justify-content: center !important;
+    margin-top: 10px;
+}
+
+#inp{
+    width: 350px;
+}
+ #button{
+     margin-left: 5px !important;
+ }
+
+
+#todoList{
+    width: 34%;
+    margin: 25px 0 0 440px;
+    list-style: none;
+}
+ #todoList li{
+     margin-bottom: 20px;
+     padding: 20px;
+     box-shadow: 0 8px 10px 1px #8b8b8b03;
+     border: 2px solid rgba(123, 123, 123, 0.2);
+     border-radius: 3px;
+ }
+
+ #todoList li a{
+     float: right;
+     font-size: 15px;
+     font-weight: bold;
+     cursor: pointer;
+     margin: 7px;
+     
+ } 
+
+ a{
+    /* font-size: 15px; */
+    font-weight: bold;
+ }
+
+ /* .txt {
+    text-decoration: line-through;
+  } */
+  .completed{
+    text-decoration: line-through;
+    
+ }
